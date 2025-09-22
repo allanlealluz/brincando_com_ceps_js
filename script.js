@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 map.setView(coords, 15);
             })
             .catch(() => {
-                feedbackMessage.textContent = 'Erro ao buscar o CEP.';
+                feedbackMessage.textContent = 'Erro ao buscar o CEP. ';
             });
     }
     populateLocationList();
