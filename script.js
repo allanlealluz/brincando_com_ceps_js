@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (cep.length === 8) {
             fetchLocationByCEP(cep);
         } else {
-            feedbackMessage.textContent = 'Por favor, insira um CEP válido.';
+            feedbackMessage.textContent = 'Por favor, insira um CEP válido. ';
         }
     });
 });
